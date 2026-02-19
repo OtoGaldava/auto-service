@@ -1,0 +1,31 @@
+.header {
+    background-color: black;
+    padding-right: 5%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.headerCont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.href {
+    font-size: large;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: white;
+}
+
+.href:hover {
+    color: #e63946;
+    border-bottom: 3px solid #e63946;
+}
+
+.logo {
+    width: 300px;
+    cursor: pointer;
+}
