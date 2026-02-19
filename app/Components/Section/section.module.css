@@ -65,3 +65,24 @@
     flex-direction: column;
     gap: 5px;
 }
+
+@media screen and (max-width: 915px) {
+    .main {
+        margin-top: 20px;
+        flex-direction: column;
+        text-align: left;
+        gap: 40px;
+    }
+
+    .href {
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+    }
+
+    .paragraph {
+        font-size: 20px;
+    }
+}

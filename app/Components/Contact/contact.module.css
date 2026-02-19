@@ -77,3 +77,51 @@
 .link:hover {
     text-decoration:underline;
 }
+
+
+@media screen and (max-width: 915px) {
+    .main {
+        margin-top: 20px;
+    }
+
+    .infoContainer {
+        flex-direction: column;
+    }
+
+    .logo {
+        order: 2;
+        text-align: center;
+    }
+
+    .cont {
+        order: 1;
+    }
+
+    .infoContainer {
+        display: flex;
+        gap: 70px;
+    }
+
+    .container {
+        padding-bottom: 100px;
+    }
+
+    .Contacts {
+        font-size: 22px;
+    }
+
+    .contactWrapper {
+        gap: 20px;
+        align-items: center;
+    }
+
+    .phone {
+        width: 32px;
+        height: 32px;
+    }
+
+    .social {
+        width: 42px;
+        height: 42px;
+    }
+}

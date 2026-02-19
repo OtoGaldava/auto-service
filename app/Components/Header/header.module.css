@@ -29,3 +29,13 @@
     width: 300px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 915px) {
+    .headerCont {
+        display: none;
+    }
+
+    .header{
+        justify-content: center;
+    }
+}
