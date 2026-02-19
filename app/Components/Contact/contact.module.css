@@ -73,3 +73,7 @@
     text-decoration: none;
     color: white;
 }
+
+.link:hover {
+    text-decoration:underline;
+}
