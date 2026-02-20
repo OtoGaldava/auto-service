@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
       <div className={styles.header}>
-        <img onClick={handleClick} className={styles.logo} src={'./logo2.png'}></img>
+        <img onClick={handleClick} alt="auto emergency | ავტო დახმარება" className={styles.logo} src={'./avtoDaxmareba.png'}></img>
 
         <div className={styles.headerCont}>
           <a className={styles.href} href="/">მთავარი</a>

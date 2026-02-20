@@ -10,7 +10,7 @@ const Services = () => {
         <div className={styles.boxContainer}>
           <a href="tel:+995550005643" className={styles.box}>
             <div className={styles.image}>
-              <img className={styles.realImage} src='./evacuator.png'></img>
+              <img className={styles.realImage} alt="ევაკუატორი | evacuator" src='./evacuator.png'></img>
             </div>
             <div>ევაკუატორის მომსახურება</div>
           </a>
@@ -31,14 +31,14 @@ const Services = () => {
 
             <a href="tel:+995550005643" className={styles.box}>
               <div className={styles.image}>
-                <img className={styles.realImage} src='./tire.png'></img>
+                <img className={styles.realImage} alt="საბურავის შეცვლა | saburavis shecvla" src='./tire.png'></img>
               </div>
             <div>საბურავის შეცვლა, დაბერვა, შეკეთება</div>
           </a>
 
           <a href="tel:+995550005643" className={styles.box}>
             <div className={styles.image}>
-              <img className={styles.realImage} src='./engine.png'></img>
+              <img className={styles.realImage} alt="manqanis daqoqva | მანქანის დაქოქვა" src='./engine.png'></img>
             </div>
             <div>მანქანის დაქოქვა</div>
           </a>
@@ -52,14 +52,14 @@ const Services = () => {
 
           <a href="tel:+995550005643" className={styles.box}>
              <div className={styles.image}>
-              <img className={styles.realImage} src='./diagnostics.png'></img>
+              <img className={styles.realImage} alt="მანქანის დიაგნოსტიკა" src='./diagnostics.png'></img>
              </div>
              <div>დიაგნოსტიკა</div>
           </a>
 
           <a href="tel:+995550005643" className={styles.box}>
              <div className={styles.image}>
-              <img className={styles.realImage} src='./evacuator.png'></img>
+              <img className={styles.realImage} alt="მანქანის გადაყვანა" src='./evacuator.png'></img>
              </div>
              <div>თოვლსა და ტალახში ჩარჩენილი მანქანის ამოყვანა</div>
           </a>

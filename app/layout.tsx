@@ -15,9 +15,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Auto Emergency",
   icons: {
-    icon: './mainLogo.png'
+    icon: './autoEmergency.png'
   },
-  description: "",
+  description: "'Auto Emergency' მიზანია, რომ გზაზე დარჩენილი ავტომფლობელები არასოდეს დარჩნენ მარტო. ევაკუატორი, საბურავის შეცვლა, დაქოქვა, დიაგნოსტიკა და სხვა - ყველაფერი ერთ სივრცეში.",
+  keywords: "Auto Emergency, avto daxmareba, evakuatori, manqana, diagnostika, saburavi, აუტო სერვისი, აუტო დახვმარება, საბურავი, ევაკუატორი, ავტო დახმარება, დიაგონსტიკა"
 };
 
 export default function RootLayout({

@@ -13,7 +13,7 @@ const Contact = () => {
 
                 <div className={styles.infoContainer}>
                     <div className={`${styles.info} ${styles.logo}`}>
-                        <img className={styles.img} onClick={handleClick} src={'./logo2.png'}></img>
+                        <img className={styles.img} alt="avto saswrafo | avto daxmareba" onClick={handleClick} src={'./avtoDaxmareba.png'}></img>
                         <p className={styles.paragraph}>კომპანიია ავტო სასწრაფო მზად არის გაგიწიოთ მაღალკვალიფიციური, სწრაფი და ხარისხიანი ავტო მომსახურება, დროის ნებისმიერ მონაკვეთში.</p>
                     </div>
 

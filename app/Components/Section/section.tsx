@@ -11,7 +11,7 @@ const Section = () => {
         <div className={styles.container}>
           <div className={styles.mainCont}>
             <div className={styles.textCont}>
-              <div className={styles.text}>სწრაფი ავტოდახმარება გზებზე</div>
+              <h1 className={styles.text}>სწრაფი ავტოდახმარება გზებზე</h1>
               
               <div className={styles.paragraphCont}>
                   <div className={styles.paragraph}>მოგესალმებით „ავტო სასწრაფოში“ ჩვენი მიზანია, რომ გზაზე დარჩენილი ავტომფლობელები არასოდეს დარჩნენ მარტო.</div>
@@ -23,7 +23,7 @@ const Section = () => {
           </div>
         </div>
 
-        <img className={styles.image} src={'./carLogo.png'}></img>
+        <img className={styles.image} alt="ევაკუატორი, ავტო დახმარება" src={'./autoService-Logo.png'}></img>
       </div>
   );
 }
